@@ -1,3 +1,7 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); /*"Koulen", cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +17,10 @@
     --none:rgba(167, 194, 192, 0.747);
 }
 
+body{
+    background-color: var(--none);
+}
+
 
 
 nav{
@@ -21,12 +29,14 @@ nav{
     align-items: center;
     justify-content: space-around;
     border-radius: 0 50px  0;
+
 }
 
 nav img{
     width: 160px;
     padding: 6px;
 }
+
 
 .menu ul{
     display: flex;
@@ -53,3 +63,62 @@ nav img{
     background-color: aliceblue;
     
 }
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: var(--dark-blue);
+    font-size: 3em;
+    padding: 10px 30px;
+}
+
+.container{
+    /* padding: 100px 225px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.botones{
+    /* display: flex;
+    align-items: center;
+    justify-content:space-around; */
+    height: 300px;
+    width: 700px;
+    /* margin: 100px; */
+}
+
+.botones{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones .columna{
+    
+}
+
+
+.columna {
+    background-color: var(--dark-blue);
+    height: 110px;
+    width: 250px;
+    border-radius: 20px 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--black);
+    
+}
+
+
